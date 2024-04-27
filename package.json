@@ -1,0 +1,22 @@
+{
+  "name": "contacts-project-api",
+  "version": "1.0.0",
+  "description": "Contacts API Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramakrishnadas/contacts-project-api.git"
+  },
+  "author": "Rama Bhagi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramakrishnadas/contacts-project-api/issues"
+  },
+  "homepage": "https://github.com/ramakrishnadas/contacts-project-api#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

@@ -6,6 +6,10 @@ const port = process.env.port || 3000;
 
 app.use("/contacts", routes);
 
+app.get("/", (req, res) => {
+    res.send("Hello World");
+})
+
 mongodb.initDb((err, mongodb) => {
     if (err) {
         console.log(err);

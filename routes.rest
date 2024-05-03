@@ -52,16 +52,16 @@ content-type: application/json
 }
 
 ### Update a contact by id (PUT)
-PUT https://contacts-project-api.onrender.com/contacts/663532d7ed569b955643802e HTTP/1.1
+PUT https://contacts-project-api.onrender.com/contacts/650c5812c06bc031e32200a1 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Rama",
-    "lastName": "Bhagi",
-    "email": "rama@test.com",
-    "favoriteColor": "black",
-    "birthday": "01/31/1998"
+    "firstName": "Bill",
+    "lastName": "Gates",
+    "email": "billgates@test.com",
+    "favoriteColor": "Black",
+    "birthday": "12/12/20"
 }
 
 ### Delete a contact by id (DELETE)
-DELETE  https://contacts-project-api.onrender.com/contacts/663532d7ed569b955643802e
+DELETE  https://contacts-project-api.onrender.com/contacts/663536705ea396887b3f975c

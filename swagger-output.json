@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "Contacts API",
-    "description": "This API contains contact information",
+    "description": "Get, create, update, and delete contact information.",
     "version": "1.0.0"
   },
   "host": "localhost:3000",
@@ -11,19 +11,9 @@
     "http"
   ],
   "paths": {
-    "/": {
-      "get": {
-        "description": "",
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/contacts/": {
       "get": {
-        "description": "",
+        "description": "Get information of all contacts.",
         "produces": [
           "application/json"
         ],
@@ -34,7 +24,7 @@
         }
       },
       "post": {
-        "description": "",
+        "description": "Create a new contact. Please fill in the request body.",
         "produces": [
           "application/json"
         ],
@@ -76,7 +66,7 @@
     },
     "/contacts/{contactId}": {
       "get": {
-        "description": "",
+        "description": "Get information for a single contact entering the contact's id.",
         "produces": [
           "application/json"
         ],
@@ -97,7 +87,7 @@
     },
     "/contacts/{id}": {
       "put": {
-        "description": "",
+        "description": "Update information for a single contact entering the contact's id.",
         "parameters": [
           {
             "name": "id",
@@ -140,7 +130,7 @@
         }
       },
       "delete": {
-        "description": "",
+        "description": "Delete a single contact entering the contact's id.",
         "parameters": [
           {
             "name": "id",

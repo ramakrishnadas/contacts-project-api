@@ -1,0 +1,67 @@
+// LOCALHOST
+### Get all contacts
+GET http://localhost:3000/contacts
+
+### Get contact by id
+GET http://localhost:3000/contacts/650c5812c06bc031e32200a1
+
+### Create new contact (POST)
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Rama",
+    "lastName": "Bhagi",
+    "email": "rama@test.com",
+    "favoriteColor": "blue",
+    "birthday": "01/31/1998"
+}
+
+### Update a contact by id (PUT)
+PUT http://localhost:3000/contacts/663532d7ed569b955643802e HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Rama",
+    "lastName": "Bhagi",
+    "email": "rama@test.com",
+    "favoriteColor": "black",
+    "birthday": "01/31/1998"
+}
+
+### Delete a contact by id (DELETE)
+DELETE  http://localhost:3000/contacts/663532d7ed569b955643802e
+
+// RENDER (Deployed Website)
+### Get all contacts
+GET https://contacts-project-api.onrender.com/contacts
+
+### Get contact by id
+GET https://contacts-project-api.onrender.com/contacts/650c5812c06bc031e32200a1
+
+### Create new contact (POST)
+POST https://contacts-project-api.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Rama",
+    "lastName": "Bhagi",
+    "email": "rama@test.com",
+    "favoriteColor": "blue",
+    "birthday": "01/31/1998"
+}
+
+### Update a contact by id (PUT)
+PUT https://contacts-project-api.onrender.com/contacts/663532d7ed569b955643802e HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Rama",
+    "lastName": "Bhagi",
+    "email": "rama@test.com",
+    "favoriteColor": "black",
+    "birthday": "01/31/1998"
+}
+
+### Delete a contact by id (DELETE)
+DELETE  https://contacts-project-api.onrender.com/contacts/663532d7ed569b955643802e
